@@ -39,3 +39,4 @@ while True:
     if not button.value and button_state:
         released()
         button_state = False
+
