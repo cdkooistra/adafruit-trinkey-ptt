@@ -24,10 +24,12 @@ led.fill((0, 0, 255))
 # Methods for pressing/releasing the button
 def pressed():
     led.fill((255, 0, 0))
+    # By default press T to use the button, can change to whatever button prefered
     kbd.press(Keycode.T)
     
 def released():
     led.fill((0, 0, 255))
+    # Release the configured button
     kbd.release(Keycode.T)
 
 # Main loop for the controller
